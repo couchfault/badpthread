@@ -1,5 +1,7 @@
 # Badpthread
-Attempting to hide stuff in other stuff using pthread stuff
+This is a dynamic library that, when loaded into a process, will execute a function before that process's main that starts a new thread. This new thread will try to find whatever file is in argv[1], and find the symbol "main" in it. If it is successful, it will then execute the method.
+
+This means that if it is injected into, say, `/bin/ls`, and given an argument of `/tmp/meterpreter`, both will run. You will see ls print the name of the file specified (because that's what ls does) and the program will also run within ls. ls will not terminate until the second program completes.
 
 Compiling:
 ----------
