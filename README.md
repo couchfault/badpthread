@@ -14,3 +14,7 @@ Notes:
 * This won't work with any OS X binaries that use entitlements that disallow DYLD_* environmental variables.
 * This won't work on any binaries in which euid != ruid
 * This should work on linux (with `LD_PRELOAD` but I haven't tested it)
+
+Screen shot:
+------------
+[Screen shot of usage](https://i.imgur.com/ZR2kJaA.png)
