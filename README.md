@@ -1,4 +1,4 @@
-# badpthread
+# Badpthread
 Attempting to hide stuff in other stuff using pthread stuff
 
 Compiling:
@@ -7,7 +7,7 @@ Compiling:
 
 Example:
 ---------
-DYLD_INSERT_LIBRARIES=badpthread.dylib /path/to/host/binary /path/to/evil/parasite
+`DYLD_INSERT_LIBRARIES=badpthread.dylib /path/to/host/binary /path/to/evil/parasite`
 
 Notes:
 ------
