@@ -17,4 +17,4 @@ Notes:
 
 Screen shot:
 ------------
-[Screen shot of usage](https://i.imgur.com/ZR2kJaA.png)
+![Screen shot of usage](https://i.imgur.com/ZR2kJaA.png)
