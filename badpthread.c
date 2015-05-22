@@ -38,7 +38,6 @@ static void before_run(int argc, char **argv, char *envp) {
 	argv_copy_sz += sizeof(NULL);
 	if ((argv_copy = malloc(argv_copy_sz)) == NULL)
 		return;
-	printf("%zd\n", argv_copy_sz);
 	memcpy(argv_copy, argv+1, argv_copy_sz);
 	argv_copy[new_argc] = NULL;
 	wait_before_return = 1;
