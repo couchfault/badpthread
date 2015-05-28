@@ -15,7 +15,8 @@ Notes:
 ------
 * This won't work with any OS X binaries that use entitlements that disallow DYLD_* environmental variables.
 * This won't work on any binaries in which euid != ruid
-* This should work on linux (with `LD_PRELOAD` but I haven't tested it)
+* This doesn't currently work on linux because you can't load ELF executables like dynamic libraries
+    - [Possible workaround](https://grugq.github.io/docs/subversiveld.pdf)
 
 Screen shot:
 ------------
